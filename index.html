@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Евклид</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container-header">
+            <div class="header-width">
+
+                <div class="header-nav menu">
+                    <div class="burger icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="header-logo">
+                        <a href="" class="logo">
+                            <img src="img/logo/Логотип_1.png" alt="логотип Евклид"></a>
+                    </div>
+                    <nav class="header-nav-info"> <!--TODO @param-->
+                        <ul class="header-nav__list links">
+                            <li class="header-nav__list_item menu-item">
+                                <a href="" class="header__nav-list-link">О нас</a>
+                            </li>
+                            <li class="header-nav__list_item menu-item">
+                                <a href="" class="header__nav-list-link">Проекты</a>
+                            </li> *!
+                            <li class="header-nav__list_item menu-item">
+                                <a href="" class="header__nav-list-link">Этапы</a>
+                            </li>
+                            <li class="header-nav__list_item menu-item">
+                                <a href="" class="header__nav-list-link">Отзывы</a>
+                            </li>
+                            <li class="header-nav__list_item menu-item">
+                                <a href="" class="header__nav-list-link">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div>
+                            <form class="header-search">
+                                <input type="search" placeholder="Поиск" class="search">
+                                <button type="submit" class="header-search__btm btn-search"> </button>
+                                <button type="submit" class="btn-search"> </button>
+                            </form>
+                            <!--/ header-search -->
+                        </div>
+                    </nav>
+                    <!--/header-nav-info-->
+                </div>
+                <!--/header-nav-->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="article">
+            <!-- Slider main container -->
+            <div class="container">
+                <div class="swiper-container ">
+                    <div class="swiper-wrapper">
+                        <div class="article-album article-album__item-1 swiper-slide">
+                            <h1 class="title-h1">Проектные решения <br> любой сложности</h1>
+                            <p class="article-album__info"> Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                            <button class="article-album__btn btn-orang">Заказать расчет</button>
+                        </div>
+
+                        <div class="article-album article-album__item-2 swiper-slide">
+                            <h1 class="title-h1">Проектные решения <br> любой сложности</h1>
+                            <p class="article-album__info"> Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                            <button class="article-album__btn btn-orang">Заказать расчет</button>
+                        </div>
+
+                        <div class="article-album article-album__item-3 swiper-slide">
+                            <h1 class="title-h1">Проектные решения <br> любой сложности</h1>
+                            <p class="article-album__info"> Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                            <button class="article-album__btn btn-orang">Заказать расчет</button>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    loop: true,
+
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            </script>
+
+
+
+        </section>
+        <!--/article-->
+
+        <section class="about">
+            <div class="container">
+                <h2 class="title-h2 perfect-about_title-h2-1024">О нас</h2>
+                <p class="about-text">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
+
+                <div class="about-container">
+                    <div class="about-bacground__info">
+                        <div class="about-bacground__info_container">
+                            <p class="about-bacground__info_text">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                            <button class="about-bacground__btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <!--/about-bacground__info"-->
+                    <div class="about-bacground__info_container-320">
+                        <p class="about-bacground__info_text-320">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                        <button class="about-bacground__btn">Подробнее</button>
+                    </div>
+
+
+
+                    <ul class="about-content">
+
+                        <li class="about-content__item about-content__img">
+                            <div class="about-content__info">
+                                <h3 class="title-h3">Консультация с широким активом</h3>
+                                <p class="about-content__info_text">
+                                    А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+                            </div>
+                        </li>
+
+                        <li class="about-content__item about-content__img">
+                            <div class="about-content__info">
+                                <h3 class="title-h3">В своём стремлении повысить</h3>
+                                <p class="about-content__info_text"> Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--/about-content-->
+                </div>
+                <!--/about-container-->
+            </div>
+        </section>
+        <!--/about-->
+
+        <section class="work">
+            <div class="container">
+                <h2 class="title-h2 perfert-work_title-h2">Как мы работаем</h2>
+                <ul class="work-nav__list">
+                    <li class="work-nav__list_item">
+                        <a href="" class="work-nav__list_link">1 шаг</a>
+                    </li>
+                    <li class="work-nav__list_item">
+                        <a href="" class="work-nav__list_link">2 шаг</a>
+                    </li>
+                    <li class="work-nav__list_item">
+                        <a href="" class="work-nav__list_link">3 шаг</a>
+                    </li>
+                    <li class="work-nav__list_item">
+                        <a href="" class="work-nav__list_link">4 шаг</a>
+                    </li>
+                </ul>
+
+                <div class="work-content">
+                    <div>
+                        <h3 class="title-h3 perfect_work_title-h3">Проводим консультацию</h3>
+                        <p class="work-content__text perfect_work-content__text">
+                            Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
+
+                        <button class="work-content__btn_detail btn-orang">Подробнее</button>
+                        <button class="work-content__btn_contract">Договор</button>
+                    </div>
+
+                    <div class="work-bacground__image"> /</div>
+                </div>
+                <!--/work-content-->
+            </div>
+        </section>
+        <!--/work-->
+
+        <section class="questions">
+            <div class="container">
+                <h2 class="title-h2 perfert-questions_title-h2">Часто задаваемые вопросы</h2>
+
+                <ul class="questions-list accordion" data-accordion="open">
+                    <li class="questions-list__item">
+                        <h3 class="questions-list__item_info accordion-header"><a href="">Из чего формируется конечная стоимость проекта?</a></h3>
+                        <div class="accordion-body">
+                            Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов.<br> <br>
+
+                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете.
+                        </div>
+
+
+                    </li>
+                    <li class="questions-list__item">
+                        <h3 class="questions-list__item_info accordion-header"><a href="">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</a></h3>
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat quibusdam aliquid, fuga voluptatibus dignissimos ducimus, rem tempore ea eveniet cum ullam necessitatibus consequuntur porro vero, harum iste eius! Libero.
+                        </div>
+                    </li>
+                    <li class="questions-list__item">
+                        <h3 class="questions-list__item_info accordion-header"><a href="">Я выбираю между разными компаниями. В чём ваше отличие?</a></h3>
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat quibusdam aliquid, fuga voluptatibus dignissimos ducimus, rem tempore ea eveniet cum ullam necessitatibus consequuntur porro vero, harum iste eius! Libero.
+                        </div>
+                    </li>
+                    <li class="questions-list__item">
+                        <h3 class="questions-list__item_info accordion-header"><a href="">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</a></h3>
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat quibusdam aliquid, fuga voluptatibus dignissimos ducimus, rem tempore ea eveniet cum ullam necessitatibus consequuntur porro vero, harum iste eius! Libero.
+                        </div>
+                    </li>
+                    <li class="questions-list__item">
+                        <h3 class="questions-list__item_info accordion-header"><a href="">Могу ли я вернуть деньги на каком-либо из этапов работ?</a></h3>
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat quibusdam aliquid, fuga voluptatibus dignissimos ducimus, rem tempore ea eveniet cum ullam necessitatibus consequuntur porro vero, harum iste eius! Libero.
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer ">
+        <div class="container-footer">
+            <div class="footer-container">
+                <div class="footer-nav">
+
+                    <a href="" class=" footer-logo">
+                        <img src="img/logo/Логотип_2.png" alt="логотип Евклид"></a>
+
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">О нас</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Проекты</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Отзывы</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Договор оферты</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Договор подряда</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Конфиденциальность</a></li>
+                        <li class="footer-nav__list_item"> <a href="" class="footer-nav__list_link">Партнерские соглашения</a></li>
+                    </ul>
+                    <ul class="footer-social">
+                        <li class="footer-social_list"><a href="" target="_blank" class="footer-icon social"></a></li>
+                        <li class="footer-social_list"><a href="" target="_blank" class="footer-icon social"></a></li>
+                        <li class="footer-social_list"><a href="" target="_blank" class="footer-icon social"></a></li>
+
+                    </ul>
+                </div>
+                <!--/footer-nav-->
+
+                <div class="footer-form">
+                    <h2 class="footer-title-h2">Оставить заявку</h2>
+                    <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="feedback">
+                        <input required type="text" name="username" placeholder="Фамилия, имя и отчество" class="form-input">
+                        <input required type="email" name="email" placeholder="E-mail" class="form-input">
+                        <textarea name="message" placeholder="Сообщение" class="form-input"></textarea>
+
+
+                        <div class="footer-btn">
+                            <button type="submit" class="form-btn btn-orang">Отправить данные</button>
+                            <label><input type="checkbox" checked class="check-box"><span class="check-style"></span>Согласен на обработку данных </label>
+                        </div>
+
+                    </form>
+                </div>
+                <!--/footer-form-->
+
+                <div class="footer-content">
+                    Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+
+</html>
